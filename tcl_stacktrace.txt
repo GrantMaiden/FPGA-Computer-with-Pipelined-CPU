@@ -1,0 +1,10 @@
+Fri Mar 03 03:03:55 PST 2017
+Trace back: invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+    while executing
+"$widget index @$x,$y"
+    (procedure "WaveABar::mouseMotionUpdate" line 19)
+    invoked from within
+"WaveABar::mouseMotionUpdate .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data .main_pane.wave.interior.cs.body.pw.wf 86 259"
+    ("after" script)
+  <2:C:/Altera/altera_lite/modelsim_ase/win32aloem/tk8.5/bgerror.tcl:92: ::tkerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+  <1:proc:183: ::tk::dialog::error::bgerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}

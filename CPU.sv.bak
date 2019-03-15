@@ -1,0 +1,13 @@
+module CPU(clk, rst);
+	input clk, rst;
+	
+	// instantiate instruction and data memory
+	
+	reg [31:0] instR;
+	// 32-bit instruction: 31~17 op code, 16~12 Reg(result), 11~10shamt, 9~5 Reg(OpdA), 4~0 Reg(OpdB)
+	
+	reg [6:0]  pc; // program counter
+	
+	ALU unit (Din1, Din2, Dout, enter, run, control, clk, rst, ZF, VF, CF, NF);
+	
+	

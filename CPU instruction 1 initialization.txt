@@ -1,0 +1,24 @@
+logic [31:0]instruct_mem[20:0];
+
+initial begin
+
+instruct_mem[0] = 32'b10111000100000000011001111100011;		//LDURSW 1 load 3
+instruct_mem[1] = 32'b10111000100000000111001111100111;		//LDURSW 2 load word A
+instruct_mem[2] = 32'b10111000100000000101001111100101;		//LDURSW 3 load word b
+instruct_mem[3] = 32'b10111000100000000010001111100010;		//LDURSW		4 load word c
+instruct_mem[4] = 32'b10111000100_000000100_00_11111_01001;		//LDURSW		5 load address 4 into reg 9
+instruct_mem[5] = 32'b10111000100000000100001111100100;		//LDURSW		5 load word d
+instruct_mem[6] = 32'b11001011000001010000000011101010;		//LDURSW		6 store A-B into register
+instruct_mem[7] = 32'b11001011000000110000000101011111;		//SUB 7 compute A-B - 3
+instruct_mem[8] = 32'b01010100000000000000000011011111;		//B.GT 8 B.GT to 14
+instruct_mem[9] = 32'b11010011011111110000110001000010;		//LSL 9 R[Rd] = R[Rn] << 3		
+instruct_mem[10] = 32'b10111000000000000010000001111111;		//STURW 10 store R[Rd] to mem address 3	
+instruct_mem[11] = 32'b10111000100000000111001111100111;		//LDURS 11 load word 7
+instruct_mem[12] = 32'b10111000000000000100000011111111;		//STURW 12 store 7 to mem address 4
+instruct_mem[13] = 32'b00010100000000000000000000000101;		//B 13 branch to end
+instruct_mem[14] = 32'b10111000100000000110001111100110;		//LDURSW 14 load word 6
+instruct_mem[15] = 32'b10111000000000000010000011011111;		//STURW 15 store 6 to mem address 2
+instruct_mem[16] = 32'b11010011011111110000100010001100;		//LSL 16 R[Rd] = R[Rn] << 2
+instruct_mem[17] = 32'b10111000000000000100000110011111;		//STURW 17 store R[Rd] to mem address 
+
+end

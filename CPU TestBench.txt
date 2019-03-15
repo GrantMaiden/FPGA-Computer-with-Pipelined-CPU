@@ -1,0 +1,24 @@
+logic [31:0]instruct_mem[20:0];
+
+initial begin
+
+instruct_mem[0] = 32'b10111000100_000000001_00_11111_00001;		//LDURSW 0 load 1 to reg 1
+instruct_mem[0] = 32'b10111000100_000000010_00_11111_00010;		//LDURSW 1 load 2 to reg 2
+instruct_mem[0] = 32'b11001011000_00001_000000_00010_00011;		//SUB 2 store A-B into register 3
+instruct_mem[0] = 32'b10001011000_00001_000000_00010_00100;		//Add 3 store A+B into reg 4
+instruct_mem[0] = 32'b11001010000_00001_000000_00010_00101;		//XOR store to reg 5
+instruct_mem[0] = 32'b10001010000_00001_000000_00010_00110;		//AND store reg 6
+instruct_mem[0] = 32'b10101010000_00001_000000_00010_00111;		//ORR store reg 7		
+instruct_mem[0] = 32'b00000000000_00000_000000_00000_00000;		//NOP
+instruct_mem[0] = 32'b01010100_0000000000000000100_11111;		//B.GT 8 B.GT to 
+instruct_mem[0] = 32'b00000000000_00000_000000_00000_00000;
+instruct_mem[0] = 32'b00000000000_00000_000000_00000_00000;
+instruct_mem[0] = 32'b00000000000_00000_000000_00000_00000;
+instruct_mem[0] = 32'b11010011011_11111_000011_00010_00100;		//LSL 9 R[Rd] = R[Rn] << 3 STORE TO REG 4
+instruct_mem[0] = 32'b10111000000_000000000_00_00100_11111;		//STURW 10 store R[Rd] to mem address 0		
+instruct_mem[0] = 32'b000101_00000000000000000000000011;		//B 13 branch to end
+instruct_mem[0] = 32'b00000000000_00000_000000_00000_00000;
+instruct_mem[0] = 32'b00000000000_00000_000000_00000_00000;
+instruct_mem[0] = 32'b11010110000_11111_000000_11111_00001;		//BR PC <= 1
+
+End

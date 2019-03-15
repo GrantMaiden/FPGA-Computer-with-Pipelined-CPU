@@ -1,0 +1,4361 @@
+# Reading C:/Altera/altera_lite/modelsim_ase/tcl/vsim/pref.tcl
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:12:06 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:12:07 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:12:07 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:12:07 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:12:07 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# ** Error: ./CPU.sv(39): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(44): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(49): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(54): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(59): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(64): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(70): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(76): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(82): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(88): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(94): (vlog-2110) Illegal reference to net "Dout".
+# 
+# ** Error: ./CPU.sv(99): (vlog-2110) Illegal reference to net "Dout".
+# 
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# End time: 01:12:07 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 9
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./CPU.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:13:38 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:13:39 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:13:39 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:13:39 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:13:39 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:13:39 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:13:39 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# ** Error: ./decode.sv(14): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(15): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(16): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(17): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(18): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(19): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(21): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(23): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(24): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(25): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(26): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(27): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(28): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(29): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(31): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(32): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(33): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(34): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(35): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(36): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(37): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(39): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(41): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(42): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(43): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(44): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(45): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(46): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(49): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(50): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(51): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(52): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(53): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(54): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(55): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(57): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(58): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(59): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(60): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(61): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(62): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(63): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(65): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(66): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(67): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(68): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(69): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(70): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(71): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(73): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(74): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(75): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(76): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(77): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(78): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(79): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(81): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(82): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(83): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(84): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(85): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(86): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(87): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(89): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(90): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(91): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(92): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(93): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(94): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(95): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(97): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(98): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(99): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(100): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(101): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(102): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(103): (vlog-2110) Illegal reference to net "data_address".
+# 
+# ** Error: ./decode.sv(106): (vlog-2110) Illegal reference to net "op".
+# 
+# ** Error: ./decode.sv(107): (vlog-2110) Illegal reference to net "Rn".
+# 
+# ** Error: ./decode.sv(108): (vlog-2110) Illegal reference to net "Rm".
+# 
+# ** Error: ./decode.sv(109): (vlog-2110) Illegal reference to net "Rd".
+# 
+# ** Error: ./decode.sv(110): (vlog-2110) Illegal reference to net "sram_RW".
+# 
+# ** Error: ./decode.sv(111): (vlog-2110) Illegal reference to net "reg_en".
+# 
+# ** Error: ./decode.sv(112): (vlog-2110) Illegal reference to net "data_address".
+# 
+# End time: 01:13:39 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 84, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 10
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./decode.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:23 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:15:23 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:23 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:15:23 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:23 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:15:23 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:24 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 01:15:24 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:24 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 01:15:24 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:24 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:15:24 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:24 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:15:24 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:25 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 01:15:25 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:25 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 01:15:25 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:25 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 01:15:25 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:25 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 01:15:25 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:25 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 01:15:26 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:15:26 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 01:15:26 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 01:15:26 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(32): [PCDPC] - Port size (9) does not match connection size (8) for port 'data_address'. The port definition is at: ./decode.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3015) ./CPU.sv(142): [PCDPC] - Port size (10) does not match connection size (8) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# ** Warning: (vsim-3839) ./CPU.sv(98): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(93): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(87): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(81): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(75): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(69): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(63): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(58): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(53): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(48): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(43): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(38): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[0]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[1]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[2]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[3]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/enter'.
+# Executing ONERROR command at macro ./CPU_wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/A'.
+# Executing ONERROR command at macro ./CPU_wave.do line 35
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/B'.
+# Executing ONERROR command at macro ./CPU_wave.do line 36
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(495)
+#    Time: 6450 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 495
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:49 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:18:49 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:49 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:18:49 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:49 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:18:49 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:49 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 01:18:49 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:50 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 01:18:50 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:50 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:18:50 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:50 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:18:50 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:50 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 01:18:50 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:50 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 01:18:50 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:51 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 01:18:51 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:51 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 01:18:51 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:51 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 01:18:51 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:18:51 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 01:18:52 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 01:18:58 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(32): [PCDPC] - Port size (9) does not match connection size (8) for port 'data_address'. The port definition is at: ./decode.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3015) ./CPU.sv(142): [PCDPC] - Port size (10) does not match connection size (8) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# ** Warning: (vsim-3839) ./CPU.sv(98): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(93): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(87): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(81): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(75): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(69): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(63): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(58): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(53): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(48): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(43): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(38): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[0]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[1]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[2]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[3]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/enter'.
+# Executing ONERROR command at macro ./CPU_wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/A'.
+# Executing ONERROR command at macro ./CPU_wave.do line 35
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/B'.
+# Executing ONERROR command at macro ./CPU_wave.do line 36
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(495)
+#    Time: 6450 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 495
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:14 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:26:14 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:14 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:26:14 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:14 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:26:14 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:14 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 01:26:14 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:15 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 01:26:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:15 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:26:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:15 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:26:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:15 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 01:26:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:15 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 01:26:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:16 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 01:26:16 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:16 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 01:26:16 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:16 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 01:26:16 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:26:16 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 01:26:16 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 01:26:18 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(142): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# ** Warning: (vsim-3839) ./CPU.sv(98): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(93): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(87): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(81): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(75): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(69): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(63): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(58): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(53): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(48): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(43): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(38): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[0]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 4
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[1]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 5
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[2]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 6
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/instMem[3]'.
+# Executing ONERROR command at macro ./CPU_wave.do line 7
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/enter'.
+# Executing ONERROR command at macro ./CPU_wave.do line 18
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/A'.
+# Executing ONERROR command at macro ./CPU_wave.do line 35
+# ** Error: (vish-4014) No objects found matching '/CPU_testbench/dut/unit/B'.
+# Executing ONERROR command at macro ./CPU_wave.do line 36
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(495)
+#    Time: 6450 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 495
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:08 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:32:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:08 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:32:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:08 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:32:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:09 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 01:32:09 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:09 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 01:32:09 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:09 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:32:09 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:09 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:32:09 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:10 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 01:32:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:10 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 01:32:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:10 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 01:32:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:10 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 01:32:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:10 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 01:32:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:32:11 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 01:32:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 01:32:12 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(142): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# ** Warning: (vsim-3839) ./CPU.sv(98): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(93): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(87): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(81): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(75): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(69): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(63): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(58): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(53): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(48): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(43): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(38): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(495)
+#    Time: 6450 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 495
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:00 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:35:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:00 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:35:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:01 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:35:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:01 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 01:35:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:01 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 01:35:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:01 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:35:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:01 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:35:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:02 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 01:35:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:02 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 01:35:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:02 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 01:35:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:02 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 01:35:03 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:03 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 01:35:03 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:35:03 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 01:35:03 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 01:35:15 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(142): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# ** Warning: (vsim-3839) ./CPU.sv(98): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(93): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(87): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(81): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(75): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(69): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(63): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(58): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(53): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(48): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(43): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(38): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(514)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 514
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:42:52 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:42:52 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:42:52 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:42:52 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:42:52 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# ** Error: ./CPU.sv(38): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(43): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(48): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(53): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(58): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(63): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(69): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(75): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(81): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(87): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(93): (vlog-2110) Illegal reference to net "control".
+# 
+# ** Error: ./CPU.sv(98): (vlog-2110) Illegal reference to net "control".
+# 
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# End time: 01:42:52 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 9
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./CPU.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:06 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:43:06 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:06 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:43:07 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:07 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:43:07 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:07 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 01:43:07 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:07 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 01:43:07 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:07 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:43:07 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:07 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:43:08 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:08 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 01:43:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:08 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 01:43:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:08 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 01:43:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:08 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 01:43:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:08 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 01:43:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:43:08 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 01:43:08 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 01:43:09 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(142): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# ** Warning: (vsim-3839) ./CPU.sv(98): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(93): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(87): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(81): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(75): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(69): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(63): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(58): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(53): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(48): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(43): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# ** Warning: (vsim-3839) ./CPU.sv(38): Variable '/CPU_testbench/dut/control', driven via a port connection, is multiply driven. See ./CPU.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut File: ./CPU.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(514)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 514
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:46:21 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:46:21 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:46:21 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:46:22 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:46:22 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(40): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(45): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(50): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(55): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(60): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(65): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(71): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(77): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(83): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(89): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(95): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# ** Error (suppressible): (vlog-12003) ./CPU.sv(100): Variable 'control' written by continuous and procedural assignments. See ./CPU.sv(36). 
+# 
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# End time: 01:46:22 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 9
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./CPU.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:01 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:51:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:01 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:51:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:01 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:51:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:01 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 01:51:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:02 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 01:51:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:02 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:51:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:02 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:51:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:02 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 01:51:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:02 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 01:51:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:02 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 01:51:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:02 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 01:51:02 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:03 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 01:51:03 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:51:03 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 01:51:03 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 01:51:07 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(138): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(510)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 510
+add wave -position 1  sim:/CPU_testbench/dut/inst_decoder/inst
+add wave -position 2  sim:/CPU_testbench/dut/inst_decoder/ALU_control
+add wave -position 3  sim:/CPU_testbench/dut/inst_decoder/op
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Chengchieh Chu/Downloads/HomeworkAndReports/EE469/Lab5/CPU_wave.do}
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:00 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 01:55:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:00 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 01:55:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:00 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 01:55:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:00 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 01:55:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:00 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 01:55:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:00 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 01:55:01 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:01 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:55:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:01 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 01:55:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:01 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 01:55:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:01 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 01:55:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:01 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 01:55:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:01 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 01:55:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 01:55:01 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 01:55:02 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 01:55:02 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(138): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(510)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 510
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:28 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:00:28 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:28 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:00:28 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:28 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:00:28 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:28 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 02:00:28 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:28 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 02:00:28 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:28 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 02:00:28 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:29 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:00:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:29 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 02:00:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:29 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 02:00:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:29 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 02:00:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:29 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 02:00:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:29 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 02:00:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:00:29 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 02:00:30 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 02:00:30 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(140): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(512)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 512
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:41 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:17:41 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:41 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:17:41 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:41 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:17:41 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:41 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 02:17:41 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:41 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 02:17:41 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:42 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 02:17:42 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:42 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:17:42 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:42 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 02:17:42 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:42 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 02:17:42 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:42 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 02:17:42 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:42 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 02:17:42 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:42 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 02:17:42 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:17:42 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 02:17:43 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 02:17:43 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(140): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(512)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 512
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/Chengchieh Chu/Downloads/HomeworkAndReports/EE469/Lab5/CPU_wave.do}
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:09 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:20:09 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:09 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:20:09 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:09 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:20:09 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:10 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 02:20:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:10 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 02:20:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:10 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 02:20:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:10 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:20:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:10 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 02:20:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:10 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 02:20:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:10 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 02:20:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:10 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 02:20:11 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:11 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 02:20:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:20:11 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 02:20:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 02:20:11 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(140): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(512)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 512
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:52 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:21:52 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:52 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:21:52 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:52 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:21:52 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:52 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 02:21:52 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:52 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 02:21:52 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:52 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 02:21:53 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:53 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:21:53 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:53 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 02:21:53 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:53 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 02:21:53 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:53 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 02:21:53 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:53 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 02:21:53 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:53 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 02:21:53 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:21:53 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 02:21:53 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 02:21:54 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(140): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(512)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 512
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:25:59 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:25:59 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:25:59 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:25:59 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:25:59 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:25:59 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:25:59 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# ** Error: (vlog-13069) ./decode.sv(21): near "else": syntax error, unexpected else.
+# 
+# ** Error: (vlog-13069) ./decode.sv(32): near "else": syntax error, unexpected else.
+# 
+# ** Error: ./decode.sv(34): (vlog-13205) Syntax error found in the scope following 'ALU_control'. Is there a missing '::'?
+# 
+# End time: 02:25:59 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 10
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./decode.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:26:59 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:26:59 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:26:59 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:26:59 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:26:59 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:26:59 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:00 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 02:27:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:00 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 02:27:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:00 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 02:27:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:00 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:27:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:00 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 02:27:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:00 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 02:27:00 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:00 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 02:27:01 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:01 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 02:27:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:01 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 02:27:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:27:01 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 02:27:01 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 02:27:02 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(140): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(512)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 512
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:36 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:29:36 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:36 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:29:37 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:37 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:29:37 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:37 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 02:29:37 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:37 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 02:29:37 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:37 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 02:29:37 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:37 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:29:37 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:37 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 02:29:37 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:37 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 02:29:37 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:38 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 02:29:38 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:38 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 02:29:38 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:38 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 02:29:38 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:29:38 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 02:29:38 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 02:29:38 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(140): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(513)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 513
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:33:54 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:33:54 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:33:54 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:33:54 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:33:54 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:33:54 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:33:54 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# ** Error: ./decode.sv(3): In, out, or inout does not appear in port list: clk.
+# ** Error: ./decode.sv(3): In, out, or inout does not appear in port list: rst.
+# End time: 02:33:54 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 10
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./decode.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:14 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 02:34:14 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:14 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 02:34:14 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:14 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:15 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:15 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:15 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:15 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:15 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:15 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:15 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:15 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 02:34:15 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:16 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 02:34:16 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 02:34:16 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 02:34:16 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 02:34:16 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(140): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(513)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 513
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:29 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 03:11:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:29 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 03:11:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:29 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 03:11:29 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:30 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 03:11:30 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:30 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 03:11:30 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:30 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 03:11:30 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:30 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:11:30 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:30 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 03:11:30 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:30 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 03:11:30 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:30 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 03:11:30 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:30 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 03:11:30 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:31 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 03:11:31 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:11:31 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 03:11:31 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 03:11:31 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(144): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(517)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 517
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:14:20 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 03:14:20 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:14:20 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 03:14:20 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:14:20 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 03:14:20 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:14:20 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# ** Error: ./decode.sv(11): (vlog-2730) Undefined variable: 'clk'.
+# 
+# ** Error: ./decode.sv(12): (vlog-2730) Undefined variable: 'rst'.
+# 
+# End time: 03:14:20 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 10
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./decode.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:14:40 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 03:14:40 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:14:40 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 03:14:40 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:14:40 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 03:14:40 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:14:40 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# ** Error: ./decode.sv(3): In, out, or inout does not appear in port list: clk.
+# ** Error: ./decode.sv(3): In, out, or inout does not appear in port list: rst.
+# End time: 03:14:40 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 10
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./decode.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:17 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 03:15:17 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:17 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 03:15:17 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:17 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 03:15:17 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:17 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# ** Error: ./decode.sv(3): In, out, or inout does not appear in port list: clk.
+# ** Error: ./decode.sv(3): In, out, or inout does not appear in port list: rst.
+# End time: 03:15:17 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runCPU.do line 10
+# C:/Altera/altera_lite/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "./decode.sv""
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:44 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 03:15:44 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:44 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 03:15:44 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:44 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 03:15:44 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:44 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 03:15:44 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:44 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 03:15:44 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:44 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 03:15:45 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:45 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:15:45 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:45 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 03:15:45 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:45 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 03:15:45 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:45 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 03:15:45 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:45 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 03:15:45 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:45 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 03:15:45 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:15:45 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 03:15:45 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 03:15:46 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(144): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(517)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 517
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:47 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 03:16:47 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:47 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 03:16:47 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:47 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 03:16:47 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:48 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 03:16:48 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:16:49 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 03:16:49 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 03:16:49 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3017) ./CPU.sv(32): [TFMPC] - Too few port connections. Expected 11, found 9.
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3015) ./CPU.sv(32): [PCDPC] - Port size (1) does not match connection size (4) for port 'clk'. The port definition is at: ./decode.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3015) ./CPU.sv(32): [PCDPC] - Port size (4) does not match connection size (9) for port 'op'. The port definition is at: ./decode.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3015) ./CPU.sv(32): [PCDPC] - Port size (1) does not match connection size (2) for port 'reg_en'. The port definition is at: ./decode.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3015) ./CPU.sv(32): [PCDPC] - Port size (9) does not match connection size (3) for port 'data_address'. The port definition is at: ./decode.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3015) ./CPU.sv(32): [PCDPC] - Port size (2) does not match connection size (5) for port 'sram_RW'. The port definition is at: ./decode.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3015) ./CPU.sv(32): [PCDPC] - Port size (3) does not match connection size (5) for port 'ALU_control'. The port definition is at: ./decode.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/inst_decoder File: ./decode.sv
+# ** Warning: (vsim-3722) ./CPU.sv(32): [TFMPC] - Missing connection for port 'Rn'.
+# ** Warning: (vsim-3722) ./CPU.sv(32): [TFMPC] - Missing connection for port 'Rd'.
+# ** Warning: (vsim-3015) ./CPU.sv(144): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(517)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 517
+do runCPU.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:10 on Mar 14,2017
+# vlog -reportprogress 300 ./ALU.sv 
+# -- Compiling module ALU
+# -- Compiling module mux8_1
+# -- Compiling module mux2_1_16
+# -- Compiling module D_ff
+# -- Compiling module ALU_testbench
+# 
+# Top level modules:
+# 	D_ff
+# 	ALU_testbench
+# End time: 03:18:10 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:10 on Mar 14,2017
+# vlog -reportprogress 300 ./memory.sv 
+# -- Compiling module memory
+# -- Compiling module memory_testbench
+# 
+# Top level modules:
+# 	memory_testbench
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./CPU.sv 
+# -- Compiling module CPU
+# -- Compiling module clock_divider
+# -- Compiling module CPU_testbench
+# 
+# Top level modules:
+# 	CPU_testbench
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./decode.sv 
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	decode
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./reader.sv 
+# -- Compiling module reader
+# -- Compiling module mux32_1
+# -- Compiling module mux2_1
+# 
+# Top level modules:
+# 	reader
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module reg_32
+# -- Compiling module decoder_5_32
+# -- Compiling module decoder_3_8
+# 
+# Top level modules:
+# 	reg_file
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./addition.sv 
+# -- Compiling module addition
+# -- Compiling module carry_lookAhead
+# -- Compiling module fullAdder
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./Subtractor.sv 
+# -- Compiling module Subtractor
+# -- Compiling module four_bit_carry_lookahead
+# -- Compiling module carry_lookahead
+# -- Compiling module fulladder
+# 
+# Top level modules:
+# 	Subtractor
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./barrelShifter.sv 
+# -- Compiling module barrelShifter
+# -- Compiling module barrelShifter_testbench
+# 
+# Top level modules:
+# 	barrelShifter_testbench
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./ANDORXOR.sv 
+# -- Compiling module ANDORXOR
+# 
+# Top level modules:
+# 	ANDORXOR
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:11 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1.sv 
+# -- Compiling module mux2To1
+# 
+# Top level modules:
+# 	mux2To1
+# End time: 03:18:11 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:12 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage1.sv 
+# -- Compiling module mux2To1Set16Stage1
+# 
+# Top level modules:
+# 	mux2To1Set16Stage1
+# End time: 03:18:12 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 03:18:12 on Mar 14,2017
+# vlog -reportprogress 300 ./mux2To1Set16Stage2.sv 
+# -- Compiling module mux2To1Set16Stage2
+# 
+# Top level modules:
+# 	mux2To1Set16Stage2
+# End time: 03:18:12 on Mar 14,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work CPU_testbench 
+# Start time: 03:18:12 on Mar 14,2017
+# Loading sv_std.std
+# Loading work.CPU_testbench
+# Loading work.CPU
+# Loading work.clock_divider
+# Loading work.ALU
+# Loading work.addition
+# Loading work.fullAdder
+# Loading work.carry_lookAhead
+# Loading work.Subtractor
+# Loading work.four_bit_carry_lookahead
+# Loading work.fulladder
+# Loading work.carry_lookahead
+# Loading work.ANDORXOR
+# Loading work.barrelShifter
+# Loading work.mux2To1Set16Stage1
+# Loading work.mux2To1
+# Loading work.mux2To1Set16Stage2
+# Loading work.mux8_1
+# Loading work.mux2_1_16
+# Loading work.reg_file
+# Loading work.decoder_5_32
+# Loading work.reg_32
+# Loading work.reader
+# Loading work.decode
+# Loading work.memory
+# Loading work.decoder_3_8
+# Loading work.D_ff
+# Loading work.mux32_1
+# Loading work.mux2_1
+# ** Warning: (vsim-3015) ./CPU.sv(144): [PCDPC] - Port size (10) does not match connection size (9) for port 'address'. The port definition is at: ./memory.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /CPU_testbench/dut/dat_mem File: ./memory.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ./CPU.sv(517)
+#    Time: 8350 ps  Iteration: 1  Instance: /CPU_testbench
+# Break in Module CPU_testbench at ./CPU.sv line 517
+# End time: 04:17:35 on Mar 14,2017, Elapsed time: 0:59:23
+# Errors: 0, Warnings: 1
