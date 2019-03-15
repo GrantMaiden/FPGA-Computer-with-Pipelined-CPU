@@ -1,15 +1,20 @@
-//-----------------------------------------------------------
-// Module name:
-//     reg_file.sv
-//
-// Description:
-//    Building an ARM 32 by 32 register file at structural
-//    level, which can be read from and written to. 
-//
-// Author:
-//    Zhengjie Zhu
-// Rev. 0 27 Jan 2017
-//-----------------------------------------------------------
+/*
+EE 469
+Designing an ALU
+Authors: Andrique Liu, Zhengjie Zhu, Grant Maiden
+
+barrelShifter functions as a barrel shifter, completing left shift logical (LSL)
+operations of a 16-bit input. 
+
+This barrel shifter takes two inputs shift1 and shift2, allowing the operator/user
+to decide whether to shift by 0, 1, 2, or 3 bits to the left- if both are enabled,
+the input is shifted to the left by 3.
+
+This module's output represents the shifted value.
+
+Note: The shift operation is LOGICAL, such that the LSBs are replaced with 0s, and the
+MSBs are discarded. 
+*/
 module reg_file (rsel1, rsel2, wsel, D, en, read1, read2, clk, rst);
 	input [4:0] rsel1, rsel2, wsel;
 	input [31:0] D;

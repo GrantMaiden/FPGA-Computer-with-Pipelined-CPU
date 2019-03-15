@@ -1,15 +1,20 @@
-//-----------------------------------------------------------
-// Module name:
-//     reader.sv
-//
-// Description:
-//    Choose one register among the 32 registers in a 
-//		register file and read data from it
-//
-// Author:
-//    Zhengjie Zhu
-// Rev. 0 27 Jan 2017
-//-----------------------------------------------------------
+/*
+EE 469
+Designing an ALU
+Authors: Andrique Liu, Zhengjie Zhu, Grant Maiden
+
+barrelShifter functions as a barrel shifter, completing left shift logical (LSL)
+operations of a 16-bit input. 
+
+This barrel shifter takes two inputs shift1 and shift2, allowing the operator/user
+to decide whether to shift by 0, 1, 2, or 3 bits to the left- if both are enabled,
+the input is shifted to the left by 3.
+
+This module's output represents the shifted value.
+
+Note: The shift operation is LOGICAL, such that the LSBs are replaced with 0s, and the
+MSBs are discarded. 
+*/
 
 module reader (rsel, regs, out);
 	input 	[4:0] 	rsel;
